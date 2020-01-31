@@ -11,8 +11,15 @@ git config --global user.name "sajid waseem"
    st1.file1 ma change kia commit(snapshoot) kr dya 
     st2.file1,file2 ma change kia commit kr dya 
       st3.file1,file2 ma changes kia error agia tu .to ham st2 st3 ma difffer kr skty hn k kaha change kia or wapas st2 par b ja skty hn 
-      
-4 git remote add origin repoName 
-5 git push origin master 
-git clone repoName 
+
+4 git remote add origin repoName(repoLink) //connect your prject after commit to remote 
+
+5 git push origin master //upload your files to romote after connect 
+
+
+git clone repoName //down load project .../
+
+ab agar 1 file or bna di reposity ma git status sy ya file untrack nzar ae gi tu add tu krni pry gi git add -a
+
+
 6 git pull origin master 
